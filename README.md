@@ -17,10 +17,11 @@ Write regular definitions of the following languages:
 ```
     a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*t*u*v*w*x*y*z*
 ```
+    
 3. Comments, consisting of a string surrounded by `/*` and `*/`, without an intervening `*/` unless it is inside double quotes.
 ```
     \/\*(".*"|\*+[^/]|[^*"]*)*\*\/
-    
+
     Here:
     ^ represents negation
     \/ represents /
@@ -30,5 +31,6 @@ Write regular definitions of the following languages:
     + represents 1 or more occurences
     [] is used for set of characters
 ```
+    
 4. All strings of digits with no repeated digits.
 5. All strings of digits with at most one repeated digit.
